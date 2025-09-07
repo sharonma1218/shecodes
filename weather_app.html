@@ -90,5 +90,19 @@
     </ul>
     <button> Change city </button>
     <p> Coded by Sharon Ma </p>
+    <script>
+        function changeCity () {
+            let city=prompt("What city do you live in?")
+            let temperature=prompt("What temperature is it?")
+            let h1=document.querySelector("h1")
+            if (temperature>0) {
+                h1.innerHTML = "😀 <div> Currently " + temperature + "°C in " + city +"</div>";
+            } else {
+                h1.innerHTML = "☹️ <div> Currently " + temperature + "°C in " + city + "</div>";
+            }
+        }
+        let changeButton=document.querySelector("button");
+        changeButton.addEventListener("click",changeCity)
+    </script>
 </body>
 </html>
