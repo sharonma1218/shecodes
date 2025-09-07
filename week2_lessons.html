@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodes</title>
+    <style>
+      body {
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        let age=prompt("How old are you?")
+        if (age<18){
+            alert("You cannot apply to SheCodes ☹️")
+        }
+        if (age>=18){
+            alert("You can apply to SheCodes 🙂")
+        }
+    </script>
+    <script>
+        let hour = prompt("What is the current hour?")
+        if (hour<12) {
+            alert("Good morning ☀️")
+        } else { 
+          if (hour>=12 && hour<18) {
+            alert("Good afternoon 🫖")
+          } else {
+              alert("Good evening 🌕")
+          }
+        }
+    </script>
+    <script>
+        function askForCountry(){
+            let country = prompt("What country are you from?")
+            country = country.toLowerCase();
+            country = country.trim();
+            if (country === 'brazil' || country === 'portugal') {
+                alert("You can speak Portuguese!")
+            } else {
+                alert("You cannot speak Portuguese")
+        }
+        };
+        askForCountry();
+    </script>
+  </body>
+</html>
