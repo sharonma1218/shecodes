@@ -4,7 +4,9 @@ A program that aims to bridge the gender gap in tech.
 
 ## Week 1 Lessons 
 
-Learned HTML and CSS.
+Learned HTML and CSS:
+
+https://sharonma1218.github.io/shecodes/week1_lessons.html
 
 <img width="1463" height="706" alt="Screenshot 2025-09-08 at 11 39 33 PM" src="https://github.com/user-attachments/assets/8d48e0ce-5d0a-48cb-807f-6f7b258b109b" />
 
@@ -12,17 +14,25 @@ Learned HTML and CSS.
 
 Learned Javascript if else statements:
 
+https://sharonma1218.github.io/shecodes/week2_ifelse
+
 <img width="440" height="187" alt="Screenshot 2025-09-08 at 11 40 53 PM" src="https://github.com/user-attachments/assets/6e843fcd-4166-4d25-91c9-62bf329c3cf1" />
 
 Learned Javascript events: 
+
+https://sharonma1218.github.io/shecodes/week2_events
 
 <img width="1461" height="705" alt="Screenshot 2025-09-08 at 11 41 33 PM" src="https://github.com/user-attachments/assets/e4ec49da-f2f7-4c1e-9d09-ee222206eb1b" />
 
 ## Weather App
 
+https://sharonma1218.github.io/shecodes/weather_app
+
 <img width="1462" height="704" alt="Screenshot 2025-09-08 at 11 43 33 PM" src="https://github.com/user-attachments/assets/938fd13b-a56d-4d56-9ffd-a708b1e8dc02" />
 
 ## Final Project 
+
+https://sharonma1218.github.io/shecodes/ilovecats
 
 <img width="1448" height="679" alt="Screenshot 2025-09-08 at 11 44 07 PM" src="https://github.com/user-attachments/assets/942e4966-2886-411a-ae3f-e9bcd887b186" />
 
