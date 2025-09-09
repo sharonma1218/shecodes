@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Cats 🐱</title>
+    <style>
+      body {
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+      }
+      section {
+        margin: 120px 0;
+      }
+      h1 {
+        color: #272044;
+        text-align: center;
+        font-size: 40px;
+      }
+      .love{
+        color:red;
+      }
+      img{
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+        padding: 25px 0 40px 0;
+      }
+      h2 {
+        text-align: center;
+        color: orange;
+        padding: 0 0 24px;
+        margin: 0;
+        font-size: 30px;
+      }
+      ul{
+        padding: 0 0 25px 200px; 
+      }
+      .bullet{
+        font-weight: bold;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        padding: 0 0 25px 0;
+      }
+      button {
+        border-radius: 30px;
+        margin: 0 auto;
+        display: block;
+        background-color: orange;
+        border: 1px solid orange;
+        color: white;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        color: orange;
+        background: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>
+        I <span class="love"> LOVE </span> Cats❣️🐱
+      </h1>
+      <img src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg">
+      <h2>
+        Why Cats Are the Superior Pet
+      </h2>
+        <ul>
+          <li> <span class="bullet"> Independence: </span> Cats don't need constant attention or daily walks. They can entertain themselves and are fine being alone.</li>
+          <li> <span class="bullet"> Space-friendly: </span> Cats adapt well to smaller living spaces since they don't need a yard to run in.</li>
+          <li> <span class="bullet"> Low Maintenance: </span> Cats </li>
+          <li> <span class="bullet"> Quieter: </span> Cats are quieter than dogs on average. Barking tends to be more disruptive than meowing.</li>
+          <li> <span class="bullet"> Cost: </span> Cats cost less to feed and care for than dogs.</li>
+          <li> <span class="bullet"> Cleanliness: </span> Cats groom themselves and often smell less than dogs.</li>
+        </ul>
+      <h2>
+        Why You Should Adopt a Cat
+      </h2>
+      <ul> 
+        <li> <span class="bullet"> Companionship: </span> Cats are affectionate in their own way and can provide comfort, warmth, and emotional support. </li>
+        <li> <span class="bullet"> Stress Relief: </span> Studies show petting a cat can lower stress and blood pressure. </li>
+        <li> <span class="bullet"> Entertainment: </span> Cats are playful, quirky, and often hilarious to watch. </li>
+      </ul>
+      <p>
+        Read more on <a href="https://en.wikipedia.org/wiki/Cat"> Wikipedia </a>
+      </p>
+      <button>
+        Adopt a cat today
+      </button>
+    </section>
+    <script>
+        function adoptToday(){
+            let name = prompt("What is your first name?");
+            let age = prompt("What is your age?");
+            if (age>=18) {
+                alert("Hi " + name + ", you can adopt a cat! 🙂")
+            } else {
+                alert("Hi, " + name + "! You might be able to adopt a cat -- You need parental permission first!")
+            }
+        }
+        let adoptButton = document.querySelector("button");
+        adoptButton.addEventListener("click", adoptToday);
+    </script>
+  </body>
+</html>
